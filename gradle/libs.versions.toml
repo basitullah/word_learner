@@ -1,0 +1,43 @@
+[versions]
+
+androidx-junit-version = "1.2.1"
+appcompat = "1.7.0"
+constraintlayout-version = "2.2.1"
+core-ktx = "1.16.0"
+espresso-core = "3.6.1"
+junit-version = "4.13.2"
+kotlin-parcelize-runtime-version = "2.0.21"
+kotlinx-coroutines-android = "1.10.1"
+lifecycle-common-java8 = "2.9.0"
+lifecycle-livedata-ktx = "2.9.0"
+lifecycle-viewmodel-ktx = "2.9.0"
+material-version = "1.12.0"
+navigation-fragment-ktx = "2.9.0"
+navigation-ui-ktx = "2.9.0"
+room-ktx = "2.7.1"
+room-runtime = "2.7.1"
+lifecycle-service-version = "2.9.0"
+
+[libraries]
+androidx-appcompat-v170 = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-constraintlayout-v221 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout-version" }
+androidx-core-ktx-v1160 = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso-core" }
+androidx-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-junit-version" }
+androidx-lifecycle-common-java8-v290 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "lifecycle-common-java8" }
+androidx-lifecycle-livedata-ktx-v290 = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle-livedata-ktx" }
+androidx-lifecycle-viewmodel-ktx-v290 = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+androidx-navigation-fragment-ktx-v290 = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation-fragment-ktx" }
+androidx-navigation-ui-ktx-v290 = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation-ui-ktx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room-ktx" }
+androidx-room-ktx-v271 = { module = "androidx.room:room-ktx", version.ref = "room-ktx" }
+androidx-room-runtime-v271 = { module = "androidx.room:room-runtime", version.ref = "room-runtime" }
+junit = { module = "junit:junit", version.ref = "junit-version" }
+kotlin-parcelize-runtime = { module = "org.jetbrains.kotlin:kotlin-parcelize-runtime", version.ref = "kotlin-parcelize-runtime-version" }
+kotlinx-coroutines-android-v1101 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines-android" }
+material-v1120 = { module = "com.google.android.material:material", version.ref = "material-version" }
+androidx-lifecycle-service = { group = "androidx.lifecycle", name = "lifecycle-service", version.ref = "lifecycle-service-version" }
+
+[plugins]
+android-application = { id = "com.android.application", version = "8.10.0" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version = "2.0.21" }
